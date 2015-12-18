@@ -50,6 +50,8 @@ gulp.task('watch', function() {
     gulp.watch('./js/*.js', ['js-reload']);
 
     gulp.watch('./*.html', ['html-reload']);
+
+    gulp.watch('./img/sprite/*.*', ['sprite']);
 });
 
 gulp.task('default', ['watch']); // Default will run the 'entry' watch task
