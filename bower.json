@@ -1,0 +1,24 @@
+{
+  "name": "Template",
+  "description": "Basic project template",
+  "main": "gulpfile.js",
+  "authors": [
+    "Evgeniy Filipyev"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6"
+  }
+}
