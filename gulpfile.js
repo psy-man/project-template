@@ -36,7 +36,9 @@ gulp.task('html-reload', function() {
 gulp.task('sprite', function () {
   var spriteData = gulp.src('./img/sprite/*.*').pipe(spritesmith({
     imgName: 'sprite.png',
-    cssName: '../css/sprite.less'
+    cssName: '../css/sprite.less',
+    imgPath: '../img/sprite.png',
+    padding: 10
   }));
   return spriteData.pipe(gulp.dest('./img'));
 });
